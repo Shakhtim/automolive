@@ -1,0 +1,95 @@
+*{padding: 0px; margin: 0px;}
+
+.menu {width: 100%;}
+	.header {width: 100%; height: 130px; background: #2abf5e;}
+		.header_fix {width: 960px; height: 130px; background:  #2abf5e; margin: 0px auto;}
+			.header_fix_logo {width: 142px; height: 43px;background: url("images/header_fix_logo.png") no-repeat left center; float: left; margin-top: 48px; display: block; margin-right: 88px; }
+			.header_fix_logo:hover {color: yellow;}
+			.header_fix_menu {float: left; width: 960;  }
+				.header_fix_menu ul {list-style-type: none; }	
+				.header_fix_menu li {float: left; margin-right: 38px; }
+				.header_fix_menu a:hover {color: yellow;}
+				.header_fix_menu a {text-decoration: none; font-size: 13px; text-transform:  uppercase; color: #fff;margin-top: 56px; line-height: 145px; word-spacing: 20px; text-align: center; font-weight: 700; transition: 0.3s; }
+				.header_fix_menu li:last {margin-right: 0px;}
+				
+			
+				
+	.content {width: 100%;}	
+		.content_privet {width: 100%; height: 1080px; background: url("images/content_privet.png") no-repeat left center; box-sizing: border-box;}
+			.content_privet_fix {width: 960px; height: 1080px;  margin: 0px auto; }
+				.content_privet_fix_telefon {width: 343px; height: 630px; background: url("images/content_privet_fix.png") no-repeat left center ; margin-left: 22px; margin-top: 177px; position: absolute; }
+				.content_privet_fix_opisanie { width: 492px; height: 320px; margin-top: 336px; margin-left: 402px; position: absolute; font-size: 47px; color: #fff; text-indent: justify;  }
+					.content_privet_fix span {line-height: 70px; }
+		
+		.ABOUT_MY_TEMPLATE {width: 100%; height: 805px; background: #fff;  }				
+			.content_opis3foto {height: 805px; width: 960px;  margin: 0px auto;}
+				.content_opis3foto_text {height: 207px; width: 933;  margin: 96px 14px 0px 22px; position: absolute; font-size: 40px; color: #888888;}
+				.content_opis3foto span {font-size: 48px; margin-left: 178px; color: #2abf5e; line-height: 90px;}
+				.content_opis3foto_foto1 {width: 240px; height: 240px; background: url("images/content_opis3foto_foto1.png") no-repeat center; position: absolute; margin-top: 402px; margin-left: 2px;} 
+				.content_opis3foto_foto2 {width: 240px; height: 240px; background: url("images/content_opis3foto_foto2.png") no-repeat center; position: absolute; margin-top: 402px; margin-left: 362px;} 
+				.content_opis3foto_foto3 {width: 240px; height: 240px; background: url("images/content_opis3foto_foto3.png") no-repeat center; position: absolute; margin-top: 402px; margin-left: 718px;} 
+		.FEATURES {width: 100%; height: 935px; background: #2abf5e; }	
+			.FEATURES_FIX {width: 960px; height: 935px; background: #2abf5e; margin: 0px auto;}	 
+				.FEATURES_TITLE {width: 255px; height: 60px;  color: #ffffff; margin-top: 47px; position: absolute; margin-left: 355px; font-size: 48px; text-transform: uppercase;}
+				.FEATURES_TEXT1 {height: 80px; width: 455px;  color:  #fff; position: absolute; margin-top: 245px; font-size: 40px;}
+				.FEATURES_TEXT2 {height: 260px; width: 455px;  color:  #fff; position: absolute; margin-top: 435px; font-size: 40px;}
+				.FEATURES_TARGET {display:  block;height: 60px; width: 235px;  position: absolute; margin-top: 741px; color: #fff;font-size: 18px; text-decoration: none; text-transform: uppercase; text-align: center; line-height: 50px; border: 2px solid #1e8843; border-radius: 6px; transition: 0.3s;}
+				.FEATURES_TARGET:hover {color: gold;}
+				.FEATURES_IMAGE {width: 496px; height: 690px; background: url("images/features_image.png"); float: right; margin-top: 245px; }
+		.reviews {width: 100%; height: 1208px;    background: white; }
+			.reviews_fix {width: 960px; height: 1208px;  position: absolute; margin: 0px 480px; }
+				.reviews_foto1 {width: 216px; height: 210px; background: url("images/reviews_foto1.png") no-repeat center; position: absolute;   margin-top: 243px; }
+				.reviews_foto2 {width: 216px; height: 210px; background: url("images/reviews_foto2.png") no-repeat center;position: absolute;   margin-top: 503px; }
+				.reviews_foto3 {width: 216px; height: 210px; background: url("images/reviews_foto3.png") no-repeat center;position: absolute;   margin-top: 763px; }
+				.reviews_title {width: 221px; height: 49px;  position: absolute; color: #2abf5e; font-size: 48px; text-transform: uppercase; margin-left: 362px; margin-top: 112px;}	
+				.reviews_text1 { height: 128px; width: 656px;  color: #888888; font-size: 24px; position: absolute; margin-top: 306px; margin-left: 304px; }
+					.reviews_text1 span {margin-left: 512px; text-transform: uppercase;}
+				.reviews_text2 { height: 102px; width: 656px;  color: #888888; font-size: 24px; position: absolute; margin-top: 561px; margin-left: 304px; }
+					.reviews_text2 span {margin-left: 512px; text-transform: uppercase;}
+				.reviews_text3 { height: 123px; width: 656px;  color: #888888; font-size: 24px; position: absolute; margin-top: 820px; margin-left: 304px; }
+					.reviews_text3 span {margin-left: 512px; text-transform: uppercase;}
+			.reviews_target {width: 234px; height: 60px; background: #2abf5e; border: 2px solid #1e8843; border-radius: 5px; position: absolute; margin-left: 362px; margin-top: 1034px; text-decoration: none; font-size: 18px; color: #fff; text-transform: uppercase; text-align: center; line-height: 55px; transition: 0.3s;}
+			.reviews_target:hover {color: #ffae00;}
+		.screenshot {width: 100%; height: 1208px; background: #2abf5e;}		
+			.screenshot_fix {width: 960px; height: 1208px; margin: 0px auto; }	
+			 .screenshot_tittle {height: 133px; width: 340px;  margin: 0px auto; font-size: 48px; color: #fff; text-transform: uppercase; text-align: center; line-height: 226px; }	
+			 .screenshot_foto {padding-left: 44px;width: 878px; height: 670px; background: url("images/screenshot_foto.png") no-repeat left center, url("images/screenshot_tochki.png") no-repeat center bottom; margin-top: 260px;}
+		.how {width: 100%; height: 1053px; background: #fff;}
+			.how_fix {width: 960px; height: 1053px;  margin: 0px auto;}
+				.how_foto {height: 628px; width: 240px;  margin-top: 225px; position: absolute;}
+					.how_image {height: 240px; width: 240px; margin-bottom: 54px; background: black; border: 0px solid; border-radius: 6px;}
+					.how_image:nth-child(1) { background: url("images/how_image1.png") no-repeat left center;}
+					.how_image:nth-child(2) { background: url("images/how_image2.png") no-repeat left center;}
+					.how_image:nth-child(3) {margin-bottom: 0px; background: url("images/how_image3.png") no-repeat left center;}
+				.demo {height: 933px; width: 590px;  margin-left: 362px; position: absolute; box-sizing: border-box;}	
+					.demo_tittle { height: 140px; width: 138px; line-height: 240px; padding-left: 49px; font-size: 46px; color: #2abf5e; }
+					.demo_text { width: 586;  height: 370px; padding-top: 122px;  font-size: 36px; color: #888888; position: absolute; box-sizing: border-box;}
+					.demo_button {background: #2abf5e; height: 64px; width: 240px; border: 3px solid #1e8843; border-radius: 6px; margin-top: 453px; box-sizing: border-box; position: absolute; text-align: center; line-height: 64px; text-decoration: none;  font-size: 18px; color: #fefefe; transition: 0.3s;}
+					.demo_button:hover {color: #ffae00; }
+					.demo_spisok {height: 272px; width: 598px;  position: absolute; margin-top: 521px; float: left;}	
+						.demo_spisok1 {background: url("images/demo_spisok.png") no-repeat left top 42px; width: 233px; height: 598px;position: absolute;font-size: 16px; color: #888888; line-height: 35px; margin-top: 129px; position: absolute; padding-left: 27px; box-sizing: border-box; }
+						.demo_spisok1 span {font-size: 20px;}
+						.demo_spisok2 {background: url("images/demo_spisok1.png") no-repeat left top 42px; width: 233px; height: 144px;position: absolute;font-size: 16px; color: #888888; margin-left: 340px; margin-bottom: 100px; margin-top: 129px; padding-left: 27px;line-height: 35px;}
+						.demo_spisok2 span {font-size: 20px;}
+				.dowland_buy {height: 1573px;  width: 100%;  }
+					.dowland_buy_fix {height: 1456px; width: 960px; margin: 0px auto; background: url("images/dowland_buy_foto.png") no-repeat center top 184px;}
+						.dowland {width: 306px ; height: 801px; }
+							.dowland_tittle {font-size: 46px; height: 262px; width: 294px; color: #2abf5e; text-transform: uppercase; text-decoration: none; text-align: left; line-height: 490px; }	
+							.dowland_text {font-size: 34px; color: #888888;  height: 406px; width: 304px; padding-top: 34px; box-sizing: border-box;}
+							.dowland_button {height: 64px; width: 240px; background: #2abf5e; margin-top: 69px; position: absolute; border: 2px solid #1e8843; border-radius: 6px; box-sizing: border-box;font-size: 18px; color: #fff; font-weight: 700; text-align: center; line-height: 64px; text-transform: uppercase; text-decoration: none; transition: 0.3s;}
+							.dowland_button:hover {color: gold;}
+
+						.buy {height: 655px; width:304px;  margin-left: 649px; position: absolute;}
+							.buy_tittle {height: 130px; width: 220px;  font-size: 46px; color: #2abf5e; line-height: 228px;}
+							.buy_text {height: 359px; width: 309px;  font-size: 34px; padding-top: 30px; box-sizing: border-box;}
+							.buy_button {height: 64px; width: 240px; background: #2abf5e; margin-top: 102px; position: absolute; border: 2px solid #1e8843; border-radius: 6px; box-sizing: border-box;font-size: 18px; color: #fff; font-weight: 700; text-align: center; line-height: 64px; text-transform: uppercase; text-decoration: none; transition: 0.3s;}
+							.buy_button:hover {color: gold;}
+	.footer {width: 100%; height: 1080px; background: #2abf5e; }	
+		.footer_fix {width: 960px; height: 886px;   margin: 0px auto;}
+			.footer_tittle {height: 155px; width: 234px;  margin:0px 363px;font-size: 48px; text-align: center; line-height: 276px; text-transform: uppercase; color: #fff;}
+			.form {height: 597px; width: 700px;  margin: 0px 130px;padding-top: 120px; box-sizing: border-box; font-size: 30px; color: #fff;}
+			.form input {width: 700px; height: 35px; font-size: 30px; }
+			.footer_button {height: 64px; width: 240px; background: #2abf5e; margin:0px 360px; margin-top: 70px; position: absolute; border: 2px solid #1e8843; border-radius: 6px; box-sizing: border-box;font-size: 18px; color: #fff; font-weight: 700; text-align: center; line-height: 64px; text-transform: uppercase; text-decoration: none; transition: 0.3s;}
+			.footer_button:hover {color: gold;}
+					
+			
